@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNS ELEVATE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #4f5451;
+            color: white;
+            margin: 0;
+        }
+        .event-time {
+            color: lightgoldenrodyellow;
+            font-size: 1.2em;
+        }
+        .section-content {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: left; /* Align content to the left */
+        }
+
+        .section-content h2 {
+            font-size: 2em;
+            color: #ff7f27;
+            margin-top: 20px;
+        }
+
+        .section-content p,
+        .section-content li {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        body {
+        font-family: 'Arial', sans-serif;
+        background-color: #4b4b4b; /* Dark gray background */
+        color: #ff7f27; /* Orange text color */
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-content {
+        padding: 50px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: left; /* Align content to the left */
+    }
+
+    h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ff7f27;
+        margin-bottom: 40px; /* Increased spacing below the main heading */
+    }
+    .section-content h2 {
+        font-size: 1.5em;
+        color: #ff7f27;
+        margin-top: 40px; /* Increased spacing above subheadings */
+        margin-bottom: 20px; /* Increased spacing below subheadings */
+    }
+
+    .section-content p,
+    .section-content li {
+        font-size: 1.2em;
+        line-height: 2.0; /* Increased line height for better readability */
+        color: #fff;
+        margin-bottom: 20px; /* Added spacing between list items and paragraphs */
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px; /* Increased spacing above the footer */
+    }
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2em; /* Smaller font size for better fit */
+        }
+
+        .section-content h2 {
+            font-size: 1.3em; /* Smaller subheading font size */
+        }
+
+
+        .section-content p,
+        .section-content li {
+            font-size: 0.9em; /* Smaller text for readability */
+            line-height: 1.6; /* Adjusted line height */
+        }
+    }
+
+    /* Media query for screens smaller than 480px (phones) */
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.7em; /* Smaller font size for better fit */
+        }
+
+        .section-content {
+            padding: 15px; /* Further reduced padding for small screens */
+        }
+
+        .section-content p,
+        .section-content li {
+            font-size: 0.85em; /* Further smaller text */
+            line-height: 1.5; /* Adjusted line height */
+        }
+
+        footer {
+            padding: 10px; /* Reduced padding */
+            font-size: 0.85em; /* Smaller footer text */
+        }
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #4b4b4b;
+        color: #ff7f27;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/ban.png" alt="VNS ELEVATE Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Events</a>
+                    <div class="dropdown-content">
+                        <a href="basketball.html">Uptown Dunk: Basketball Faceoff</a>
+                        <a href="music.html">Let’s Get Lyrical: Masters of Music</a>
+                    </div>
+                </li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="flow.html">Event Schedule</a></li>
+                <li><a href="rules-faq.html">Rules & FAQ</a></li>
+                <li><a href="committee.html">Organizing Committee</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section-content"><br><br>
+            <h1 style="text-align: center;color: #ff7527;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Event Schedule</h1>
+
+            <div class="event">
+                <h2 class="event-title" style="color: #87e4fc;">Uptown Dunk: The Basketball Faceoff</h2>
+                <div class="event-time">7:30 am – 8:00 am: Registration and Arrival</div>
+                <div class="event-time">8:00 am – 8:30 am: Opening Ceremony</div>
+                <div class="event-time">8:30 am – 11:00 am: Quarterfinals</div>
+                <div class="event-time">11:30 am – 12:30 pm: Semi Finals</div>
+                <div class="event-time">12:30 pm – 3:00 pm: Lunch</div>
+                <div class="event-time">3:00 pm – 4:00 pm: Finals</div>
+                <div class="event-time">4:00 pm – 5:00 pm: Prize Distribution and Closing Ceremony</div>
+            </div>
+
+            <div class="event">
+                <h2 class="event-title" style="color: #ffd600;">Let's Get Lyrical: Masters of Music</h2>
+                <div class="event-time">9:30 am – 10:00 am: Registration and Arrival</div>
+                <div class="event-time">10:00 am – 12:30 am: Preliminary Rounds</div>
+                <div class="event-time">12:30 pm – 1:00 pm: Lunch</div>
+                <div class="event-time">1:00 pm – 2:00 pm: Vocals Competition</div>
+                <div class="event-time">2:00 pm – 3:00 pm: Battle of the Bands</div>
+                <div class="event-time">4:00 pm – 5:00 pm: Prize Distribution and Closing Ceremony</div>
+            </div><br><br>
+
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        document.querySelectorAll('.dropdown').forEach(item => {
+        item.addEventListener('click', event => {
+            item.classList.toggle('active');
+            console.log("Dropdown menu clicked");
+        });
+    });
+    </script>
+
+</body>
+</html>
