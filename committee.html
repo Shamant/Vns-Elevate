@@ -36,15 +36,85 @@
         </nav>
     </header>
 
-    <section class="hero"><h1 style="color: #ff7527;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Organizing Committee</h1>
-        <h2 style="color: #87e4fc;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Coming Soon</h2>
-    </section>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 VNS ELEVATE. All Rights Reserved.</p><br>
+    <section class="hero">
+        <h1 style="font-size: 2.5em; color: #ff7527;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Organizing Committee</h1>
+        <br>
+        <div class="coordinator">
+            <h3 class="name">EVENT COORDINATOR</h3>
+            <img class="portrait" src="images/Dhruv Koshy.jpg" alt="Dhruv Koshy">
+            <p class="coordinator-name">Dhruv Koshy</p>
         </div>
-    </footer>
+        
+        <div class="coordinator">
+            <h3 class="name">BASKETBALL COORDINATORS</h3>
+            <div class="flex-container">
+                <div class="coordinator">
+                    <img class="portrait" src="/images/Veer Karan.jpg" alt="Veer Karan">
+                    <p class="coordinator-name">Veer Karan</p>
+                </div>
+                <div class="coordinator">
+                    <img class="portrait" src="/images/Tanush TV.jpg" alt="Tanush TV">
+                    <p class="coordinator-name">Tanush TV</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-container">
+            <div class="coordinator">
+                <h3 class="name">MUSIC COORDINATOR</h3>
+                <img class="portrait" src="images/arnav.jpg" alt="Arnav Vikrant">
+                <p class="coordinator-name">Arnav Vikrant</p>
+            </div>
+            <div class="coordinator">
+                <h3 class="name">STALLS COORDINATOR</h3>
+                <img class="portrait" src="images/ateendirya.jpg" alt="Ateendirya">
+                <p class="coordinator-name">Ateendriya Hiremath</p>
+            </div>
+        </div>
+        
+        <div class="coordinator">
+            <h3 class="name">LOGISTICS AND HOSPITALITY COORDINATORS</h3>
+            <div class="flex-container">
+                <div class="coordinator">
+                    <img class="portrait" src="/images/hitha.jpg" alt="Hitha">
+                    <p class="coordinator-name">Hitha Aravind</p>
+                </div>
+                <div class="coordinator">
+                    <img class="portrait" src="/images/Aditi Manimaran.jpg" alt="Aditi Manimaran">
+                    <p class="coordinator-name">Aditi Manimaran</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="coordinator">
+            <h3 class="name">PUBLICITY COORDINATORS</h3>
+            <div class="flex-container">
+                <div class="coordinator">
+                    <img class="portrait" src="/images/Khushi Deepak.jpg" alt="Khushi Deepak">
+                    <p class="coordinator-name">Khushi Deepak</p>
+                </div>
+                <div class="coordinator">
+                    <img class="portrait" src="/images/Avni Mallar.jpg" alt="Avni Mallar">
+                    <p class="coordinator-name">Avni Mallar</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-container">
+            <div class="coordinator">
+                <h3 class="name">REGISTRATION & PRIZES</h3>
+                <img class="portrait" src="/images/srujana.jpg" alt="Srujana">
+                <p class="coordinator-name">Srujana</p>
+            </div>
+            <div class="coordinator">
+                <h3 class="name">GRAPHICS & WEB DESIGN</h3>
+                <img class="portrait" src="/images/Shamant Sai.jpg" alt="Shamant Sai">
+                <p class="coordinator-name">Shamant Sai</p>
+            </div>
+        </div>
+        
+        
+    </section>
 <script>
      function toggleMenu() {
             const navLinks = document.querySelector('.nav-links');
@@ -54,8 +124,53 @@
     <script src="js/main.js"></script>
     <style>
         .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh; 
+            padding-top: 20px;
             margin-left: 3%;
-        }
+    }
+    .hero h1 {
+        margin: 0; /* Remove default margins if needed */
+    }
+    .name {
+        color:#27cbff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .coordinator {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portrait {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3.name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.coordinator-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
     </style>
 </body>
 </html>
